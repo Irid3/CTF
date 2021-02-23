@@ -48,7 +48,7 @@ Cryptography
 Di challenge ini cuma mendecode character yang tergeser.  
 toolsnya? [*ini.*](https://www.dcode.fr/caesar-cipher)
 
-> Flag : CTFR{s3c0nd_fl4g_w4s_c1ph3r_t3xt}
+> *Flag : CTFR{s3c0nd_fl4g_w4s_c1ph3r_t3xt}*
  
 ---
 
@@ -84,8 +84,7 @@ Cryptography
 ![gambar](image/Base64.png)
 
 Seperti yang tertulis dideskripsi challenge,bagi kalian yang belum bisa nyelesain first flag kalian tinggal mendecode flag dichallenge ini menggunakan tools online [*Base64 decoder*](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)).  
-\
-\
+
 > *Flag : CTFR{s1mpl3_b4s3_64}*
 ---
 
@@ -102,11 +101,30 @@ Cryptography
 ![gambar](image/Base32.png)
 
 Toolsnya sama ama yang di challenge *Dasar64* bedanya cuman di angkanya.  
-decodernya :
+- decodernya : [base32](https://gchq.github.io/CyberChef/#recipe=From_Base32('A-Z2-7%3D',true))
 
+> *Flag : CTFR{s1mpl3_b4s3_32}*
 
+---
 
+# Kode Mouse
+Points : 150
 
+# Category
+Cryptography
 
+# Hint
+> *mouse atau morse?*
 
+# Penyelesaian 
+![gambar](image/KodeMouse.png)
+
+ini plesetan dari kata morse sih,ya tinggal di decode deh.  
+- *Tools : [ini](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed'))* 
+ 
+*Note : format flag tetep **CTFR{flag}**,kebanyakan format flagnya berbentuk lower case*
+
+> *Flag : CTFR{m0rs3_c0d3_1s_aw3s0m3}*
+
+---
 
