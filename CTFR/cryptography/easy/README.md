@@ -24,12 +24,43 @@ decode lagi hexadecimal ke ascii menggunakan tools [*hex to ascii*](https://www.
 
 ![alt gambar](image/FirstFlag3.png)
 
-keluar tuh outputnya,dengan format *base32 encode*,tinggal decode lagi deh [*base32 decoder*](https://emn178.github.io/online-tools/base32_decode.html)  
+keluar tuh outputnya,dengan format *base32 encode*,tinggal decode lagi deh [*base32 decoder*](https://emn178.github.io/online-tools/base32_decode.html).  
 
-keluar lagi outputnya sekarang formatnya *base64*,decode lagi dah [*decoder*](https://emn178.github.io/online-tools/base64_decode.html).
+keluar lagi outputnya sekarang formatnya *base64*,decode lagi dah [*base64 decoder*](https://emn178.github.io/online-tools/base64_decode.html).
 
-and BOOM!! ketemu flagnya.
-> *FLAG :  CTFR{th1s_1s_your_f1rst_fl4g}*
+ketemu deh flagnya.
+> *Flag :  CTFR{th1s_1s_your_f1rst_fl4g}*
+
+
+# SECOND FLAG
+
+# Category
+Cryptography
+
+# Hint
+> *Caesar Cipher*
+
+# Penyelesaian
+
+![alt image](image/SecondFlag.png)
+
+Di challenge ini cuma mendecode character yang tergeser.  
+toolsnya? [*ini.*](https://www.dcode.fr/caesar-cipher)
+
+> Flag : CTFR{s3c0nd_fl4g_w4s_c1ph3r_t3xt}
+ 
+
+
+# Last Flag
+
+# Category
+Cryptography
+
+# Hint
+> Ini adalah Last<span style="color:blue"> **FLAG** </span>Challenge
+
+
+
 
 
 
